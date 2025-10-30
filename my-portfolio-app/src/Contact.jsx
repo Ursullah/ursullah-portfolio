@@ -117,7 +117,7 @@ export function Contact() {
         </motion.div>
 
         <motion.a
-          href="mailto:hello@sophiachen.dev"
+          href="mailto:khanguhaursula@gmail.com"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

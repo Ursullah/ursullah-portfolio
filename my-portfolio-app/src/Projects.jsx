@@ -3,51 +3,49 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "MovieDatabase App",
     description:
-      "A modern e-commerce platform with shopping cart, payment integration, and admin dashboard. Built with React and Redux for state management.",
+      "A modern movie database application with search, filtering, and user authentication features. Built with React.js and TailwindCSS.",
     image:
-      "https://images.unsplash.com/photo-1658297063569-162817482fb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
-    tags: ["React", "Redux", "Tailwind", "Stripe"],
-    liveUrl: "#",
-    githubUrl: "#",
+      "/MOVIEDB.png",
+    tags: ["React.js", "TailwindCSS", "OMDB API"],
+    liveUrl: "https://movie-db-app-999v.vercel.app/",
+    githubUrl: "https://github.com/Ursullah/movie-db-app.git",
   },
   {
-    title: "Task Management App",
+    title: "Prescription Verifier",
     description:
-      "A collaborative task management application with drag-and-drop functionality, real-time updates, and team collaboration features.",
+      "The Prescription Verifier is designed to streamline the process of verifying medical prescriptions. The system allows pharmacists to verify prescriptions based on the doctor’s credentials before dispensing medication.",
     image:
-      "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
-    tags: ["Next.js", "TypeScript", "DnD", "Firebase"],
-    liveUrl: "#",
-    githubUrl: "#",
+      "/PRESCRIPTION.jpg",
+    tags: ["React.js", "TailwindCSS", "Python", "Flask", "SQLite"],
+    githubUrl: "https://github.com/Ursullah/DEVCI.git",
   },
   {
-    title: "Analytics Dashboard",
+    title: "Dynamic Quote Generator",
     description:
       "An interactive analytics dashboard with real-time data visualization, customizable widgets, and comprehensive reporting features.",
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
-    tags: ["React", "D3.js", "Chart.js", "REST API"],
-    liveUrl: "#",
-    githubUrl: "#",
+      "/QUOTES.png",
+    tags: ["HTML", "CSS", "Javascript", "JSONPlaceholder API"],
+    githubUrl: "https://github.com/Ursullah/DynamicQuoteGenerator.git",
   },
-  {
-    title: "Portfolio Website",
-    description:
-      "A stunning portfolio website with smooth animations, dark mode support, and optimized performance for showcasing creative work.",
-    image:
-      "https://images.unsplash.com/photo-1593720213681-e9a8778330a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
-    tags: ["Next.js", "Framer Motion", "Tailwind", "MDX"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
+//   {
+//     title: "Portfolio Website",
+//     description:
+//       "A stunning portfolio website with smooth animations, and optimized performance for showcasing creative work.",
+//     image:
+//       "/PORTFOLIO.png",
+//     tags: ["React.js", "Framer Motion", "TailwindCSS"],
+//     liveUrl: "https://ursullah-portfolio-git-main-ursullahs-projects.vercel.app",
+//     githubUrl: "https://github.com/Ursullah/ursullah-portfolio.git",
+//   },
 ];
 
 export function Projects() {
   return (
    <section id="projects" className="py-20 bg-gradient-to-b from-white to-pink-50">
-  <div className="max-w-8xl mx-auto px-4">
+  <div className="max-w-7xl mx-auto px-4">
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -63,7 +61,7 @@ export function Projects() {
     </motion.div>
 
     {/* 4-column grid section */}
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {projects.map((project, index) => (
         <motion.div
           key={project.title}

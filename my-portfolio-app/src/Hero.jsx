@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
+import { Github, Linkedin, Mail, ArrowDown, FileDown } from "lucide-react";
 import {ReactTyped} from "react-typed";
 
 
@@ -131,6 +131,14 @@ export function Hero() {
               className="text-gray-600 hover:text-pink-500 transition-colors"
             >
               <Mail size={24} />
+            </a>
+            <a
+              // href="Link to my CV"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-pink-500 transition-colors"
+            >
+              <FileDown size={24} />
             </a>
           </motion.div>
         </motion.div>

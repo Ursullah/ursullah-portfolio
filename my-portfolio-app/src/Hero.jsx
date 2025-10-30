@@ -132,13 +132,18 @@ export function Hero() {
             >
               <Mail size={24} />
             </a>
-            <a
-              // href="Link to my CV"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-pink-500 transition-colors"
+           <a
+            href="/Khanguha_Ursullah.pdf"
+            download="Khanguha_Ursullah.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group text-gray-600 hover:text-pink-500 transition-colors flex items-center"
             >
-              <FileDown size={24} />
+           <FileDown size={24} className="transition-transform duration-200 group-hover:scale-110 group-hover:text-pink-500"
+           />
+            <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-sm text-pink-500">
+            Download CV
+            </span>
             </a>
           </motion.div>
         </motion.div>

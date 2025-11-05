@@ -133,8 +133,8 @@ export function Hero() {
               <Mail size={24} />
             </a>
            <a
-            href="/Updated_UrsullahCV.pdf"
-            download="Updated_UrsullahCV.pdf"
+            href="/Ursullah_Khanguha-CV.pdf"
+            download="Ursullah_Khanguha-CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="group text-gray-600 hover:text-pink-500 transition-colors flex items-center"

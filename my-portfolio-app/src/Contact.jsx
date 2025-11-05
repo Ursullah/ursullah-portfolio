@@ -6,8 +6,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "khanguhaursula@gmail.com",
-    href: "mailto:khanguhaursula@gmail.com",
+    value: "5l1dar2nm@mozmail.com",
+    href: "mailto:5l1dar2nm@mozmail.com",
   },
   {
     icon: MapPin,
@@ -117,7 +117,7 @@ export function Contact() {
         </motion.div>
 
         <motion.a
-          href="mailto:khanguhaursula@gmail.com"
+          href="mailto:5l1dar2nm@mozmail.com"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

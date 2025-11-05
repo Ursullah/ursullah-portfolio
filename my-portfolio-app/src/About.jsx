@@ -44,7 +44,7 @@ const techStack = [
 
 export default function About() {
   return (
-    <section className="min-h-[60vh] bg-gradient-to-b from-white via-pink-50 to-white relative overflow-hidden">
+    <section className="py-20 min-h-[60vh] bg-gradient-to-b from-white via-pink-50 to-white relative overflow-hidden">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <motion.div

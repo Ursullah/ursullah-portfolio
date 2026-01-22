@@ -12,7 +12,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Location",
-    value: "Nakuru, KENYA",
+    value: "Nairobi, KENYA",
   },
 ];
 

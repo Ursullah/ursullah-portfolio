@@ -30,7 +30,7 @@ const skills = [
 ];
 
 const techStack = [
-  "React",
+  "React.js",
   "Node.js",
   "Tailwind CSS",
   "JavaScript",
